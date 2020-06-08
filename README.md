@@ -53,4 +53,4 @@ As an example, consider the plot below, where we have plotted the average score 
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. In the case of the plot above, the environment was solved at episode 63, since the average of the average scores from episodes 64 to 163 (inclusive) was greater than +30.
 
-The environment contains one brain. I have chosen to solve the first version of the environment with the single agent option using the off-policy DDPG algorithm. The problem was solved using DDPG algorithm where the average reward of +30 over at least 100 episodes was achieved in 234 episodes.
+**I have chosen to solve the first version of the environment with the single agent option using the off-policy DDPG algorithm. The problem was solved using DDPG algorithm where the average reward of +30 over at least 100 episodes was achieved in 234 episodes.**
