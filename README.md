@@ -56,3 +56,41 @@ The environment is considered solved, when the average (over 100 episodes) of th
 **I have chosen to solve the first version of the environment with the single agent option using the off-policy DDPG algorithm. The problem was solved using DDPG algorithm where the average reward of +30 over at least 100 episodes was achieved in 230 episodes.**
 
 
+
+
+
+Follow the instructions below to explore the environment on your own machine! You will also learn how to use the Python API to control your agent.
+
+### Step 1: Clone the DRLND Repository
+If you haven't already, please follow the [instructions in the DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies/ "instructions in the DRLND GitHub repository") to set up your Python environment. These instructions can be found in README.md at the root of the repository. By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
+
+(For Windows users) The ML-Agents toolkit supports Windows 10. While it might be possible to run the ML-Agents toolkit using other versions of Windows, it has not been tested on other versions. Furthermore, the ML-Agents toolkit has not been tested on a Windows VM such as Bootcamp or Parallels.
+
+### Step 2: Download the Unity Environment
+For this project, you will not need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:<br/>
+
+Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip/ "click here")<br/>
+Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip/ "click here")<br/>
+Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip/ "click here")<br/>
+Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip/ "click here")<br/>
+
+Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
+
+(For Windows users) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64/ "this link") if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
+
+(For AWS) If you'd like to train the agent on AWS ([and have not enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md\ "and have not enabled a virtual screen")), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip/ "this link") to obtain the "headless" version of the environment. You will not be able to watch the agent without enabling a virtual screen, but you will be able to train the agent. (To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md/ "enable a virtual screen"), and then download the environment for the Linux operating system above.)
+
+### Step 3: Explore the Environment
+After you have followed the instructions above, open Navigation.ipynb (located in the p1_navigation/ folder in the DRLND GitHub repository) and follow the instructions to learn how to use the Python API to control the agent.
+
+### (Optional) Build your Own Environment
+
+For this project, we have built the Unity environment for you, and you must use the environment files that we have provided.
+
+If you are interested in learning to build your own Unity environments after completing the project, you are encouraged to follow the instructions [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Getting-Started-with-Balance-Ball.md/ "here"), which walk you through all of the details of building an environment from a Unity scene.
+
+### How to train a agent
+We have two options for training the agent and they are -
+1. Directly run the notebook within the online Workspace provided by Udacity Nanodegree for the  Project #1 Navigation.
+2. The online workspace does not allow you to see the simulator of the environment; so, if you want to watch the agent while it is training, you should build your own local environment and make necessary adjustments to the path of the Unity environment and train locally.
+
