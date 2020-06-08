@@ -26,6 +26,8 @@ The environment contains one brain. I have chosen to solve the first version of 
 
 For this project, you will work with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
 
+![](reacher.gif)
+
 Unity ML-Agents Reacher Environment
 Unity ML-Agents Reacher Environment
 
