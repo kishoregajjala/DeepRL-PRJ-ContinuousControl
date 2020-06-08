@@ -89,6 +89,6 @@ If you haven't already, please follow the [instructions in the DRLND GitHub repo
 ### Step 3: Explore the Environment
 After you have followed the instructions above, open Continuous_Control.ipynb (located in the p2_continuous-control/ folder in the DRLND GitHub repository) and follow the instructions to learn how to use the Python API to control the agent.
 
-### How to train a agent
+## How to train a agent
 Directly run the notebook within the online Workspace provided by Udacity Nanodegree for the  Project #2 Continuous Control. Follow the instructuions in Continuous_Control.ipynb to get started with training your own agent.
 
