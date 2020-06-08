@@ -56,8 +56,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 **I have chosen to solve the first version of the environment with the single agent option using the off-policy DDPG algorithm. The problem was solved using DDPG algorithm where the average reward of +30 over at least 100 episodes was achieved in 230 episodes.**
 
 
-
-
+## Getting Started
 
 Follow the instructions below to explore the environment on your own machine! You will also learn how to use the Python API to control your agent.
 
@@ -88,16 +87,8 @@ If you haven't already, please follow the [instructions in the DRLND GitHub repo
 2. Then, place the file in the p2_continuous-control/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
 
 ### Step 3: Explore the Environment
-After you have followed the instructions above, open Navigation.ipynb (located in the p1_navigation/ folder in the DRLND GitHub repository) and follow the instructions to learn how to use the Python API to control the agent.
-
-### (Optional) Build your Own Environment
-
-For this project, we have built the Unity environment for you, and you must use the environment files that we have provided.
-
-If you are interested in learning to build your own Unity environments after completing the project, you are encouraged to follow the instructions [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Getting-Started-with-Balance-Ball.md/ "here"), which walk you through all of the details of building an environment from a Unity scene.
+After you have followed the instructions above, open Continuous_Control.ipynb (located in the p2_continuous-control/ folder in the DRLND GitHub repository) and follow the instructions to learn how to use the Python API to control the agent.
 
 ### How to train a agent
-We have two options for training the agent and they are -
-1. Directly run the notebook within the online Workspace provided by Udacity Nanodegree for the  Project #1 Navigation.
-2. The online workspace does not allow you to see the simulator of the environment; so, if you want to watch the agent while it is training, you should build your own local environment and make necessary adjustments to the path of the Unity environment and train locally.
+Directly run the notebook within the online Workspace provided by Udacity Nanodegree for the  Project #2 Continuous Control. Follow the instructuions in Continuous_Control.ipynb to get started with training your own agent.
 
