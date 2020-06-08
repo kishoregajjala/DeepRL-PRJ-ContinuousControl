@@ -12,6 +12,7 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 ### Action
 Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
+
 The action space is continuous, which allows each agent to execute more complex and precise movements. There's an unlimited range of possible action values to control the robotic arm, whereas the agent with discrete action space was limited to four discrete actions: left, right, forward, backward.
 
 ### Project Goal
